@@ -1,0 +1,23 @@
+Flask env setup: https://www.youtube.com/watch?v=QjtW-wnXlUY
+
+Activate venv: cd flask-env
+	      Open cmd there
+	     .\Scripts\activate
+		
+
+set FLASK_APP = app.py (only once)
+
+flask run
+
+
+Alternately:
+
+add the following lines @ the end of your flask app.py file
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+# app.run(debug = True, host='0.0.0.0', port= '5000)
+
+
+in the cmd just run python app.py

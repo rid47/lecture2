@@ -1,0 +1,9 @@
+get: req.param appended in url string
+post: carries req.param in msg body
+
+insomnia is like postman : a tool to send get, post, put request
+
+PUT: modify a single resource
+POST: insert a new row
+
+Checkout Mock server in postman
